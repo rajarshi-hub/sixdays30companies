@@ -18,7 +18,7 @@ class Solution {
 		        dp[i]= (dp[i]+dp[i-2])%MOD;
 		        else
 		        if(str[i-2] == '2' && str[i-1] <= '6')
-		        dp[i]= (dp[i]+dp[i-2])%MOD;
+		        dp[i]= (dp[i]+dp[i-2])%MOD;            // Only Char till 26
 		    }
 		    return dp[n];
 		}
