@@ -11,7 +11,7 @@ string encode(string src)
           i++;
       }
       ans+=ch;
-      ans+=to_string(c);
+      ans+=to_string(c);  //Adding Count
   }
   return ans;
 }     
